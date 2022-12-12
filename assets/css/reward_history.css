@@ -1,0 +1,255 @@
+.multi_reward_spinner,
+#reward_spinner{
+    display: none;
+    background: url(../images/spinner.gif) no-repeat;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.multi_reward_history_list_wrapper,
+#reward_history_list_wrapper{
+    position: relative;
+    box-sizing: border-box;
+    margin: 25px auto;
+    min-width: 320px;
+    width: 100%;
+    padding: 32px;
+    max-width: 960px;
+    background-color: #f6f6f6;
+}
+
+#reward_history_list_wrapper h1#reward_history_heading_title{
+	font-weight: 800;
+	font-size: 26px;
+	margin-bottom: 0.2em;
+	line-height: 1.2em;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	color: #272727;
+}
+
+#reward_history_list_wrapper p#reward_history_heading_description{
+	font-weight: 500;
+    color: #7a8aa0;
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_form_wrapper,
+.multi_reward_history_list_wrapper .multi_reward_history_input_wrapper,
+#reward_history_list_wrapper #reward_history_form_wrapper,
+#reward_history_list_wrapper #reward_history_input_wrapper{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.6em;
+	border-radius: 20px;
+	margin: 0px;
+	padding: 32px 32px 24px 32px;
+	box-shadow: none;
+	background: #272727;
+	color: #FFF;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_form_wrapper,
+#reward_history_list_wrapper #reward_history_form_wrapper{
+	padding: 0;
+}
+
+#reward_history_list_wrapper #reward_history_form_wrapper label{
+	position: relative;
+    display: inline-flex;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-image: initial;
+    border-radius: 10px;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    cursor: text;
+    transition: border-color 100ms ease 0s;
+    width: 100%;
+    background: #2f2f37;
+    color: #FFF;
+}
+
+#reward_history_list_wrapper #reward_history_form_wrapper label:hover{
+	z-index: 1;
+	border-color: rgb(255 253 255 / 24%)
+}
+
+#reward_history_list_wrapper #reward_history_form_wrapper label span{
+	font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    position: relative;
+    padding: 17px 0px;
+}
+
+#reward_history_list_wrapper #reward_history_form_wrapper label span input{
+	width: 100%;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.43em;
+    padding: 0px;
+    border-radius: 0px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 0px;
+    color: #FFF;
+}
+
+#reward_history_list_wrapper #reward_history_form_wrapper .reward_history_warning{
+	padding: 8px;
+    border-radius: 8px;
+    color: rgb(255, 172, 47);
+    background-color: rgba(255, 172, 47, 0.1);
+    text-align: center;
+    margin-top: 16px;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_wallet_address{
+    text-align: center;
+    color: #FFF;
+    font-size: 26px;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_wallet_address a,
+.multi_reward_history_list_wrapper .multi_reward_history_wallet_address a:focus,
+.multi_reward_history_list_wrapper .multi_reward_history_wallet_address a:active,
+.multi_reward_history_list_wrapper .multi_reward_history_wallet_address a:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_default_content_wrapper,
+.multi_reward_history_list_wrapper .multi_reward_history_default_content,
+#reward_history_list_wrapper #reward_history_default_content_wrapper,
+#reward_history_list_wrapper #reward_history_default_content,
+#reward_history_list_wrapper #reward_history_result_wrapper{
+	font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6em;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 32px;
+    box-shadow: none;
+    background: #FFF;
+    color: #7a8aa0;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_default_content_wrapper,
+#reward_history_list_wrapper #reward_history_default_content_wrapper{
+	padding: 0;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_result_wrapper,
+#reward_history_list_wrapper #reward_history_result_wrapper{
+    margin-top: 32px;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_default_content,
+#reward_history_list_wrapper #reward_history_default_content{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.multi_reward_history_list_wrapper .reward_history_default_content_hidden,
+#reward_history_list_wrapper .reward_history_default_content_hidden{
+    display: none;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_default_content .multi_default_content_item,
+#reward_history_list_wrapper #reward_history_default_content .default_content_item{
+	-webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: initial;
+    display: initial;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_default_content .multi_default_content_item .multi_default_content_item_title,
+#reward_history_list_wrapper #reward_history_default_content .default_content_item .default_content_item_title{
+	color: rgb(39, 56, 82);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_default_content .multi_default_content_item .multi_default_content_item_change_values,
+#reward_history_list_wrapper #reward_history_default_content .default_content_item .default_content_item_change_values{
+	font-weight: 600;
+    font-size: 20px;
+	line-height: 20px;
+	color: rgb(39, 56, 82);
+	height: 20px;
+	margin-bottom: 6px;
+	display: flex;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_default_content .multi_default_content_item  .multi_default_content_item_change_values .multi_default_content_item_change_value_prefix,
+#reward_history_list_wrapper #reward_history_default_content .default_content_item .default_content_item_change_values .default_content_item_change_value_prefix{
+	display: inline;
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_default_content .multi_default_content_item .multi_default_content_item_fixed_values,
+#reward_history_list_wrapper #reward_history_default_content .default_content_item .default_content_item_fixed_values{
+	display: flex;
+	color: rgb(39, 56, 82);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_default_content .multi_default_content_item .multi_default_content_item_fixed_values .multi_default_content_item_fixed_value_prefix,
+#reward_history_list_wrapper #reward_history_default_content .default_content_item .default_content_item_fixed_values .default_content_item_fixed_value_prefix{
+	display: inline-block;
+    padding-right: 3px;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_result_wrapper h4,
+#reward_history_list_wrapper #reward_history_result_wrapper h4{
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_result_wrapper .multi_reward_history_result_notice,
+#reward_history_list_wrapper #reward_history_result_wrapper #reward_history_result_notice{
+    text-align: center;
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_result_wrapper .multi_reward_history_result_table table td,
+.multi_reward_history_list_wrapper .multi_reward_history_result_wrapper .multi_reward_history_result_table table th,
+#reward_history_list_wrapper #reward_history_result_wrapper #reward_history_result_table table td,
+#reward_history_list_wrapper #reward_history_result_wrapper #reward_history_result_table table th{
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.multi_reward_history_list_wrapper .multi_reward_history_result_wrapper .multi_reward_history_result_table .dataTables_wrapper .dataTables_paginate,
+#reward_history_list_wrapper #reward_history_result_wrapper #reward_history_result_table .dataTables_wrapper .dataTables_paginate{
+    float: none;
+    margin-top: 15px;
+    text-align: center;
+}
